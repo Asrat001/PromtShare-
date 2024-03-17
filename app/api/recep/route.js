@@ -1,7 +1,8 @@
 import {conectTODB} from  '@utils/database'
 import Recep from '@models/recep';
 
-
+export const dynamic = 'force-dynamic'
+export const revalidate = 1
 export const GET = async (request) =>{
     try {
         
