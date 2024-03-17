@@ -5,7 +5,7 @@ import Provider from '@components/Provider'
 
 export const metadata={
     title:"recipes",
-    description:"Discover $ Share recipes"
+    description:"Discover $ Share food recipes"
 }
 
  const RootLayout = ({children}) => {
