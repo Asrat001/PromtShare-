@@ -1,4 +1,4 @@
-
+import Feed from "@components/Feed";
 
  const Home = () => {
   return (
@@ -7,13 +7,14 @@
       Discover & Share
       <br className="max-md:hidden" />
       <span className="orange_gradient text-center">
-            AI-Powerd Prompts
+            Best Recipes
       </span>
             </h1>
             <p className="desc text-center">
-                  propttopia is an open-source AI prompting tool for modern world to discover , create and share creative prompts
-
+            ላጤ Recipes is an open-source recipe sharing website designed for the modern world. Explore, create, and share creative recipes with our vibrant community.
             </p>
+
+            <Feed/>
         </section>
   )
 }
