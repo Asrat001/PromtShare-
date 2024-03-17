@@ -57,7 +57,7 @@ const Feed = ({}) => {
 
  useEffect(()=>{
   const fetchPost= async ()=>{
-    const respons = await fetch ('/api/recep');
+    const respons = await fetch ('/api/recep',{ cache: 'no-store' });
     const data= await respons.json()
     setPosts(data)
   }
